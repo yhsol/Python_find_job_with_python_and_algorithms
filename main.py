@@ -1,2 +1,3 @@
-from indeed import extract_indeed_pages, extract_indeed_jobs
+from indeed import get_jobs_data
 
+print(get_jobs_data())
