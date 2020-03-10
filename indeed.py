@@ -39,7 +39,6 @@ def extract_job(html):
         "link": f"https://kr.indeed.com/viewjob?jk={job_id}"
     }
 
-
 def extract_indeed_jobs(last_page):
     jobs = []
     for page in range(last_page):
@@ -51,3 +50,8 @@ def extract_indeed_jobs(last_page):
             job = extract_job(result)
             jobs.append(job)
     return jobs
+
+def get_jobs():
+  last_indeed_pages = extract_indeed_pages()
+  jobs = extract_indeed_jobs(last_indeed_pages)
+  return jobs
