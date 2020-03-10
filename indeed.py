@@ -51,7 +51,7 @@ def extract_indeed_jobs(last_page):
             jobs.append(job)
     return jobs
 
-def get_jobs():
-  last_indeed_pages = extract_indeed_pages()
-  jobs = extract_indeed_jobs(last_indeed_pages)
+def get_jobs_data():
+  last_page = extract_indeed_pages()
+  jobs = extract_indeed_jobs(last_page)
   return jobs
