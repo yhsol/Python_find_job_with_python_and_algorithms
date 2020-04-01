@@ -1,4 +1,5 @@
-from make_pair import make_pair
+from fibonacci import fibonacci
 
-v = ["mike", "tome", "johanson"]
-print(make_pair(v))
+n = 6
+for i in range(0, 11):
+  print(fibonacci(i))
