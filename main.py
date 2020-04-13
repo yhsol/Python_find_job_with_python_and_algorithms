@@ -1,7 +1,5 @@
-from find_in_two_list import find_in_two_list
+from sel_sort_2 import sel_sort_2
 
-
-a = 3
-list1 = [39,14,67,105]
-list2 = ["Justin", "John", "Mike", "Summer"]
-print(find_in_two_list(105, list1, list2))
+d = [2,4,5,1,3]
+sel_sort_2(d)
+print(d)
