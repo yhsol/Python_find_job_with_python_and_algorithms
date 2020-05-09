@@ -1,5 +1,5 @@
-from merge_sort_2 import merge_sort_2
+from binary_search import binary_search
 
-d = [6,8,3,9,10,1,2,4,7,5]
-merge_sort_2(d)
-print(d)
+d = [1,2,3,4,5,6,7,8,9,10]
+
+print(binary_search(d, 3))
