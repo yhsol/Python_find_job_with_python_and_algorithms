@@ -1,5 +1,4 @@
-from binary_search_2 import binary_search_3
+from al_plus_multiple import al_plus_multiple
 
-d = [1,2,3,4,5,6,7,8,9,10]
-
-print(binary_search_3(d, 3))
+n = int(input())
+print(al_plus_multiple(n))
