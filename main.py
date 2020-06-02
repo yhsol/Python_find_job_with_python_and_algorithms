@@ -1,5 +1,5 @@
-from al_max_index import al_max_index
+from al_same_name import al_same_name
 
 # n = int(input())
-list = [1,5,3,5,9]
-print(al_max_index(list))
+list = ["tom", "jerry", "tom", "jerry"]
+print(al_same_name(list))
