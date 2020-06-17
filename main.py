@@ -1,5 +1,3 @@
-from al_factorial import run
+from recursive_find_max import result
 
-# n = int(input())
-list = ["tom", "jerry", "tom", "jerry"]
-print(run())
+print(result)
