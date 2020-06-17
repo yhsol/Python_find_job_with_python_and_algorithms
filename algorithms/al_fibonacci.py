@@ -1,8 +1,9 @@
 def fibo(n):
-  if n <= 1:
-    return n
+    if n <= 1:
+        return n
 
-  return fibo(n-2) + fibo(n-1)
+    return fibo(n-2) + fibo(n-1)
 
-def run:
-  print(fibo(10))
+
+def run():
+    print(fibo(10))
