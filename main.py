@@ -1,3 +1,8 @@
-from algorithms.al_fibonacci import run
+from algorithms.al_hanoi import al_hanoi
 
-run()
+print("n=1")
+al_hanoi(1, 1, 2, 3)
+print("n=2")
+al_hanoi(2, 1, 2, 3)
+print("n=3")
+al_hanoi(3, 1, 2, 3)
