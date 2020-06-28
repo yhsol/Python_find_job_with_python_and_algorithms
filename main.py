@@ -1,8 +1,6 @@
-from algorithms.al_hanoi import al_hanoi
+from algorithms.al_sequential_search import search_by_index
 
-print("n=1")
-al_hanoi(1, 1, 2, 3)
-print("n=2")
-al_hanoi(2, 1, 2, 3)
-print("n=3")
-al_hanoi(3, 1, 2, 3)
+list = [39, 14, 67, 105]
+name = ["Justin", "John", "Mike", "Summer"]
+result = search_by_index(list, 67, name)
+print(result)
