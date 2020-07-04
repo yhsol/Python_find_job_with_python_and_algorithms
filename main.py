@@ -1,3 +1,3 @@
-from algorithms.al_selection_sort import run
+from algorithms.al_selection_sort_2 import run
 
 run()
